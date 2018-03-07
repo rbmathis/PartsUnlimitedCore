@@ -10,6 +10,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    [Serializable]
     public class Product
     {
         [Required]

@@ -36,6 +36,6 @@
     }
   },
   "ConnectionStrings": {
-    "DefaultConnectionString": ""
+    "DefaultConnectionString": "Server=bartpartsunlimitedsql.database.windows.net;Database=partscore; User Id=PartsUnlimitedWebsite; password=Pass@word!!"
   }
 }
