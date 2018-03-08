@@ -40,7 +40,6 @@
     <Exec Command="npm install python2" />
     <Exec Command="npm install -/-loglevel=error" />
    -->
-    <Exec Command="npm install grunt"/>
     <Exec Command="grunt" />
   </Target>
 
