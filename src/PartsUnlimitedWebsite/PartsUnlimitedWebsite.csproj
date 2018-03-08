@@ -40,7 +40,7 @@
     <Exec Command="npm install python2" />
     <Exec Command="npm install -/-loglevel=error" />
    -->
-    <Exec Command="grunt" />
+    <Exec Command="grunt" WorkingDirectory="$(ProjectDir)" />
   </Target>
 
 </Project>
