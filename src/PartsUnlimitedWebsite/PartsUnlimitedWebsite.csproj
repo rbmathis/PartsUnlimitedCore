@@ -34,13 +34,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </None>
   </ItemGroup>
-
-  <Target Name="PrecompileScript" BeforeTargets="BeforeBuild">
-    <!--
+  
+  <!--
+    <Target Name="PrecompileScript" BeforeTargets="BeforeBuild">
     <Exec Command="npm install python2" />
-    <Exec Command="npm install -/-loglevel=error" />
-   -->
-    <Exec Command="grunt" WorkingDirectory="$(ProjectDir)" />
+    <Exec Command="npm install -\-loglevel=error" />
+    <Exec Command="grunt" />
   </Target>
-
+-->
 </Project>
